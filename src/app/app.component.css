@@ -1,0 +1,39 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 400%;
+}
+
+h2, h3 {
+    color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 2em;
+}
+
+body, input[type="text"], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
+
+/* everywhere else */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-text {
+    text-align: center;
+    position: absolute;
+    top:33%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
